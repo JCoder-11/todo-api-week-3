@@ -1,7 +1,22 @@
+
 {
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "Week 3 Todo API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+    
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "dec": "^0.0.1",
-    "express": "^5.2.1",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1"
+    
+  },
+  "devDependencies": {
     "nodeman": "^1.1.2"
   }
 }
